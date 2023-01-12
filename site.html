@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+<div class="container"></div>
+
+
+<form action="/api/get-request">
+    <fieldset>
+        <legend>Select Options</legend>
+        <label for="select1">Select Option 1:</label><br>
+        <select id="select1" name="select1">
+        <input type="text" name="select1-input" id="select1-input">
+
+        </select><br>
+        <label for="select2">Select Option 2:</label><br>
+        <select id="select2" name="select2">
+        <input type="text" name="select2-input" id="select2-input">
+        </select>
+    </fieldset>
+    <br>
+</form>
+<button class="btn">Exchange</button>
+
+<div id="myDiv"></div>
+
+
+
+
+
+<script src="get-exchange.js"></script>
+<script src="get-name.js"></script>
+</body>
+</html>
